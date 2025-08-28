@@ -1,0 +1,24 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+  --color-barra-navegacion: #A2D5C6;
+  --color-barra-presentacion: #CFFFE2;
+  --color-contenedores: #F6F6F6;
+  --titulos-principales: 000000;
+  --tipografia: 'Roboto Condensed', sans-serif;
+}
+
+.Contenedor_principal{
+  background-color: var(--color-barra-navegacion);
+  height: 50px;
+  width: 100%;
+  display: flex;
+  text-align: center;
+}
+
